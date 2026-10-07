@@ -1,0 +1,102 @@
+package,old_version,new_version,label,status,risk_score,risk_level,primary_category,triggered_signals,top_contributions,highest_risk_file,highest_file_points,finding_count,matched_occurrences,active_categories,lines_added_context,files_changed_context,finding_summary,policy_bonuses,recommendation
+antd,5.22.2,5.22.3,0,ok,4.2,LOW,execution,new_dynamic_function,new_dynamic_function=4.20,dist/antd-with-locales.min.js,3.0,2,2,execution,216,36,new_dynamic_function @ dist/antd-with-locales.min.js:352 (3.00) | new_dynamic_function @ dist/antd.min.js:352 (1.20),,No strong corroborating security indicators detected.
+arjson,0.1.3,0.1.4,1,ok,55.0,HIGH,lifecycle,new_preinstall; npm_targeted_script_changed,new_preinstall=45.00; npm_targeted_script_changed=18.00,package.json,63.0,2,2,lifecycle,4,2,new_preinstall @ package.json:16 (45.00) | npm_targeted_script_changed @ package.json:16 (18.00),,Review before adopting; strong or corroborating security-relevant changes are present.
+assertion-error-formatter,2.0.1,3.0.0,0,ok,0,LOW,none,,,,0.0,0,0,,549,14,,,No strong corroborating security indicators detected.
+aws4,1.13.1,1.13.2,0,ok,0,LOW,none,,,,0.0,0,0,,3,2,,,No strong corroborating security indicators detected.
+axios-mock-adapter,2.0.0,2.1.0,0,ok,12.6,LOW,execution,new_eval,new_eval=12.60,dist/axios-mock-adapter.js,12.6,4,4,execution,391,10,new_eval @ dist/axios-mock-adapter.js:50 (7.20) | new_eval @ dist/axios-mock-adapter.js:61 (1.80) | new_eval @ dist/axios-mock-adapter.js:71 (1.80) | new_eval @ dist/axios-mock-adapter.js:82 (1.80),,No strong corroborating security indicators detected.
+b4a,1.6.6,1.6.7,0,ok,0,LOW,none,,,,0.0,0,0,,125,3,,,No strong corroborating security indicators detected.
+babel-helper-replace-supers,7.0.0-alpha.7,6.24.1,0,ok,0,LOW,none,,,,0.0,0,0,,19,3,,,No strong corroborating security indicators detected.
+babel-plugin-dynamic-import-node,2.3.2,2.3.3,0,ok,0,LOW,none,,,,0.0,0,0,,31,3,,,No strong corroborating security indicators detected.
+babel-plugin-transform-es2015-object-super,7.0.0-alpha.7,6.24.1,0,ok,0,LOW,none,,,,0.0,0,0,,18,4,,,No strong corroborating security indicators detected.
+babel-plugin-transform-typescript-metadata,0.3.1,0.3.2,0,ok,0,LOW,none,,,,0.0,0,0,,27,6,,,No strong corroborating security indicators detected.
+babylon,7.0.0-beta.19,6.18.0,0,ok,7.6,LOW,obfuscation,new_hex_escape_sequences; new_filesystem,new_hex_escape_sequences=5.60; new_filesystem=2.00,lib/index.js,5.6,2,2,obfuscation; system,6370,6,new_hex_escape_sequences @ lib/index.js:43 (5.60) | new_filesystem @ bin/babylon.js:5 (2.00),,No strong corroborating security indicators detected.
+big.js,6.2.1,6.2.2,0,ok,0,LOW,none,,,,0.0,0,0,,13,5,,,No strong corroborating security indicators detected.
+bin-links,4.0.4,5.0.0,0,ok,0,LOW,none,,,,0.0,0,0,,25,2,,,No strong corroborating security indicators detected.
+blueimp-md5,2.18.0,2.19.0,0,ok,0,LOW,none,,,,0.0,0,0,,8,3,,,No strong corroborating security indicators detected.
+bottleneck,2.19.4,2.19.5,0,ok,0,LOW,none,,,,0.0,0,0,,18,7,,,No strong corroborating security indicators detected.
+browserify-des,1.0.1,1.0.2,0,ok,0,LOW,none,,,,0.0,0,0,,48,4,,,No strong corroborating security indicators detected.
+buildcheck,0.0.5,0.0.6,0,ok,17.72,LOW,execution,new_child_process; new_environment; new_filesystem,new_child_process=6.72; new_environment=4.20; new_filesystem=2.80,mscdex-buildcheck-8ce70cc/lib/findvs.js,9.8,8,8,environment; execution; system,1605,22,new_child_process @ mscdex-buildcheck-8ce70cc/lib/findvs.js:3 (4.80) | new_environment @ mscdex-buildcheck-8ce70cc/lib/findvs.js:123 (2.40) | new_filesystem @ mscdex-buildcheck-8ce70cc/lib/findvs.js:4 (2.00) | new_child_process @ mscdex-buildcheck-8ce70cc/lib/index.js:7 (1.92) | new_environment @ mscdex-buildcheck-8ce70cc/lib/index.js:171 (0.96),execution+environment=2.0; three_or_more_categories=2.0,No strong corroborating security indicators detected.
+chai,4.5.0,5.1.2,0,ok,0,LOW,none,,,,0.0,0,0,,11614,51,,,No strong corroborating security indicators detected.
+charm,1.0.1,1.0.2,0,ok,0,LOW,none,,,,0.0,0,0,,35,1,,,No strong corroborating security indicators detected.
+chevrotain,11.0.2,11.0.3,0,ok,3.0,LOW,execution,new_dynamic_function,new_dynamic_function=3.00,lib/chevrotain.min.mjs,3.0,1,1,execution,42,8,new_dynamic_function @ lib/chevrotain.min.mjs:1 (3.00),,No strong corroborating security indicators detected.
+clean-stack,5.1.0,5.2.0,0,ok,0,LOW,none,,,,0.0,0,0,,51,4,,,No strong corroborating security indicators detected.
+compression,1.7.4,1.7.5,0,ok,0,LOW,none,,,,0.0,0,0,,41,4,,,No strong corroborating security indicators detected.
+consolidate,1.0.3,1.0.4,0,ok,0,LOW,none,,,,0.0,0,0,,5,3,,,No strong corroborating security indicators detected.
+critters,0.0.24,0.0.25,0,ok,0,LOW,none,,,,0.0,0,0,,13,4,,,No strong corroborating security indicators detected.
+cron-parser,4.8.1,4.9.0,0,ok,0,LOW,none,,,,0.0,0,0,,9,24,,,No strong corroborating security indicators detected.
+cross-inspect,1.0.1-rc-20240805200723-05722a8db4c5d6b61f087c9a81931f2efdc22cc1,1.0.1,0,ok,0,LOW,none,,,,0.0,0,0,,1,1,,,No strong corroborating security indicators detected.
+cross-spawn,7.0.5,7.0.6,0,ok,0,LOW,none,,,,0.0,0,0,,3,2,,,No strong corroborating security indicators detected.
+crypto-js,4.1.1,4.2.0,0,ok,0,LOW,none,,,,0.0,0,0,,995,10,,,No strong corroborating security indicators detected.
+detect-libc,2.0.2,2.0.3,0,ok,0,LOW,none,,,,0.0,0,0,,13,3,,,No strong corroborating security indicators detected.
+detect-port-alt,1.1.5,1.1.6,0,ok,0,LOW,none,,,,0.0,0,0,,5,2,,,No strong corroborating security indicators detected.
+detective,5.2.0,5.2.1,0,ok,0,LOW,none,,,,0.0,0,0,,9,2,,,No strong corroborating security indicators detected.
+dom-helpers,5.2.0,5.2.1,0,ok,0,LOW,none,,,,0.0,0,0,,1578,167,,,No strong corroborating security indicators detected.
+ejs,3.1.9,3.1.10,0,ok,39.84,MEDIUM,execution,new_dynamic_function; new_filesystem; new_environment; new_child_process,new_dynamic_function=22.20; new_filesystem=9.08; new_environment=2.64; new_child_process=1.92,ejs-v3.1.10/ejs.js,18.6,20,22,environment; execution; system,3874,20,new_dynamic_function @ ejs-v3.1.10/ejs.js:110 (12.00) | new_dynamic_function @ ejs-v3.1.10/lib/ejs.js:109 (4.80) | new_dynamic_function @ ejs-v3.1.10/ejs.js:660 (3.00) | new_environment @ ejs-v3.1.10/ejs.js:1672 (2.40) | new_filesystem @ ejs-v3.1.10/bin/cli.js:28 (2.00),execution+environment=2.0; three_or_more_categories=2.0,Review the highlighted security-relevant changes.
+encoding,0.1.12,0.1.13,0,ok,0,LOW,none,,,,0.0,0,0,,66,7,,,No strong corroborating security indicators detected.
+enhanced-resolve,5.17.0,5.17.1,0,ok,0,LOW,none,,,,0.0,0,0,,141,8,,,No strong corroborating security indicators detected.
+env-paths,2.2.1,3.0.0,0,ok,0,LOW,none,,,,0.0,0,0,,102,5,,,No strong corroborating security indicators detected.
+errorhandler,1.5.0,1.5.1,0,ok,0,LOW,none,,,,0.0,0,0,,34,4,,,No strong corroborating security indicators detected.
+esbuild,0.23.1,0.24.0,0,ok,28.0,MEDIUM,execution,new_spawn; new_exec; new_child_process,new_spawn=18.00; new_exec=16.00; new_child_process=9.00,lib/main.js,43.0,4,4,execution,34,3,new_spawn @ lib/main.js:1980 (18.00) | new_exec @ lib/main.js:2084 (16.00) | new_child_process @ lib/main.js:1980 (7.20) | new_child_process @ lib/main.js:2084 (1.80),,Review the highlighted security-relevant changes.
+eslint-config-airbnb,19.0.3,19.0.4,0,ok,0,LOW,none,,,,0.0,0,0,,6,2,,,No strong corroborating security indicators detected.
+eslint-module-utils,2.11.1,2.12.0,0,ok,0,LOW,none,,,,0.0,0,0,,9,3,,,No strong corroborating security indicators detected.
+event-emitter,0.3.4,0.3.5,0,ok,0,LOW,none,,,,0.0,0,0,,18,4,,,No strong corroborating security indicators detected.
+execa,9.5.0,9.5.1,0,ok,0,LOW,none,,,,0.0,0,0,,13,2,,,No strong corroborating security indicators detected.
+external-editor,3.0.3,3.1.0,0,ok,0,LOW,none,,,,0.0,0,0,,53,8,,,No strong corroborating security indicators detected.
+fast-copy,3.0.1,3.0.2,0,ok,0,LOW,none,,,,0.0,0,0,,12,9,,,No strong corroborating security indicators detected.
+find-up,6.3.0,7.0.0,0,ok,0,LOW,none,,,,0.0,0,0,,37,4,,,No strong corroborating security indicators detected.
+findup-sync,4.0.0,5.0.0,0,ok,0,LOW,none,,,,0.0,0,0,,44,4,,,No strong corroborating security indicators detected.
+fs-readdir-recursive,1.0.0,1.1.0,0,ok,0,LOW,none,,,,0.0,0,0,,8,3,,,No strong corroborating security indicators detected.
+gensync,1.0.0-beta.1,1.0.0-beta.2,0,ok,0,LOW,none,,,,0.0,0,0,,29,3,,,No strong corroborating security indicators detected.
+get-npm-tarball-url,2.0.3,2.1.0,0,ok,0,LOW,none,,,,0.0,0,0,,99,8,,,No strong corroborating security indicators detected.
+git-hooks-list,3.0.0,3.1.0,0,ok,55.0,HIGH,lifecycle,new_prepare; npm_targeted_script_changed,new_prepare=40.00; npm_targeted_script_changed=18.00,package.json,58.0,2,2,lifecycle,31,2,new_prepare @ package.json:51 (40.00) | npm_targeted_script_changed @ package.json:51 (18.00),,Review before adopting; strong or corroborating security-relevant changes are present.
+glob-parent,6.0.1,6.0.2,0,ok,0,LOW,none,,,,0.0,0,0,,16,3,,,No strong corroborating security indicators detected.
+global-agent,2.2.0,3.0.0,0,ok,0,LOW,none,,,,0.0,0,0,,1,1,,,No strong corroborating security indicators detected.
+global-dirs,3.0.1,4.0.0,0,ok,0,LOW,none,,,,0.0,0,0,,1,1,,,No strong corroborating security indicators detected.
+graphql,17.0.0-alpha.5,16.9.0,0,ok,3.36,LOW,environment,new_environment,new_environment=3.36,jsutils/instanceOf.js,2.4,2,2,environment,18757,411,new_environment @ jsutils/instanceOf.js:13 (2.40) | new_environment @ jsutils/instanceOf.mjs:6 (0.96),,No strong corroborating security indicators detected.
+hawk,9.0.1,9.0.2,0,ok,0,LOW,none,,,,0.0,0,0,,8,2,,,No strong corroborating security indicators detected.
+history,5.3.0-pre.0,5.3.0,0,ok,0,LOW,none,,,,0.0,0,0,,1,1,,,No strong corroborating security indicators detected.
+home-or-tmp,3.0.0,4.0.0,0,ok,0,LOW,none,,,,0.0,0,0,,64,4,,,No strong corroborating security indicators detected.
+hook-std,2.0.0,3.0.0,0,ok,0,LOW,none,,,,0.0,0,0,,202,5,,,No strong corroborating security indicators detected.
+i18next,24.0.3,24.0.4,0,ok,0,LOW,none,,,,0.0,0,0,,9,9,,,No strong corroborating security indicators detected.
+i18next-browser-languagedetector,7.2.1,8.0.0,0,ok,0,LOW,none,,,,0.0,0,0,,827,10,,,No strong corroborating security indicators detected.
+ini,4.1.3,5.0.0,0,ok,0,LOW,none,,,,0.0,0,0,,8,1,,,No strong corroborating security indicators detected.
+interpret,3.1.0,3.1.1,0,ok,0,LOW,none,,,,0.0,0,0,,3,2,,,No strong corroborating security indicators detected.
+ip,1.1.9,2.0.1,0,ok,0,LOW,none,,,,0.0,0,0,,62,2,,,No strong corroborating security indicators detected.
+is-npm,5.0.0,6.0.0,0,ok,0,LOW,none,,,,0.0,0,0,,16,3,,,No strong corroborating security indicators detected.
+istanbul-api,2.1.7,3.0.0,0,ok,0,LOW,none,,,,0.0,0,0,,30,3,,,No strong corroborating security indicators detected.
+istanbul-lib-report,3.0.0,3.0.1,0,ok,0,LOW,none,,,,0.0,0,0,,12,2,,,No strong corroborating security indicators detected.
+istanbul-lib-source-maps,5.0.5,5.0.6,0,ok,0,LOW,none,,,,0.0,0,0,,9,3,,,No strong corroborating security indicators detected.
+jasmine,5.4.0,5.5.0,0,ok,5.0,LOW,system,new_filesystem,new_filesystem=5.00,lib/command.js,5.0,2,2,system,34,6,new_filesystem @ lib/command.js:256 (4.00) | new_filesystem @ lib/command.js:258 (1.00),,No strong corroborating security indicators detected.
+json-parse-even-better-errors,3.0.2,4.0.0,0,ok,0,LOW,none,,,,0.0,0,0,,9,1,,,No strong corroborating security indicators detected.
+json-schema,0.3.0,0.4.0,0,ok,0,LOW,none,,,,0.0,0,0,,5,3,,,No strong corroborating security indicators detected.
+json-to-pretty-yaml,1.2.1,1.2.2,0,ok,0,LOW,none,,,,0.0,0,0,,123,4,,,No strong corroborating security indicators detected.
+jsprim,2.0.1,2.0.2,0,ok,0,LOW,none,,,,0.0,0,0,,10,2,,,No strong corroborating security indicators detected.
+jwa,1.4.1,2.0.0,0,ok,0,LOW,none,,,,0.0,0,0,,3,3,,,No strong corroborating security indicators detected.
+katex,0.16.10,0.16.11,0,ok,2.65,LOW,obfuscation,new_hex_escape_sequences; new_network,new_hex_escape_sequences=1.40; new_network=1.25,dist/katex.min.js,2.65,2,29,network; obfuscation,1065,18,new_hex_escape_sequences @ dist/katex.min.js:1 (1.40) | new_network @ dist/katex.min.js:1 (1.25),,No strong corroborating security indicators detected.
+knex,3.0.1,3.1.0,0,ok,0,LOW,none,,,,0.0,0,0,,282,18,,,No strong corroborating security indicators detected.
+launch-editor,2.9.0,2.9.1,0,ok,0,LOW,none,,,,0.0,0,0,,2,2,,,No strong corroborating security indicators detected.
+launchdarkly-eventsource,2.0.2,2.0.3,0,ok,0,LOW,none,,,,0.0,0,0,,90,5,,,No strong corroborating security indicators detected.
+load-json-file,7.0.0,7.0.1,0,ok,0,LOW,none,,,,0.0,0,0,,4,2,,,No strong corroborating security indicators detected.
+lodash.map,4.5.1,4.6.0,0,ok,0,LOW,none,,,,0.0,0,0,,65,3,,,No strong corroborating security indicators detected.
+lodash.mapvalues,4.5.1,4.6.0,0,ok,0,LOW,none,,,,0.0,0,0,,65,3,,,No strong corroborating security indicators detected.
+loose-envify,1.3.1,1.4.0,0,ok,0,LOW,none,,,,0.0,0,0,,2,2,,,No strong corroborating security indicators detected.
+marked,15.0.2,15.0.3,0,ok,0,LOW,none,,,,0.0,0,0,,78,9,,,No strong corroborating security indicators detected.
+metro-cache,0.81.0-alpha.2,0.81.0,0,ok,0,LOW,none,,,,0.0,0,0,,3,1,,,No strong corroborating security indicators detected.
+metro-cache-key,0.81.0-alpha.2,0.81.0,0,ok,0,LOW,none,,,,0.0,0,0,,2,1,,,No strong corroborating security indicators detected.
+metro-source-map,0.81.0-alpha.2,0.81.0,0,ok,0,LOW,none,,,,0.0,0,0,,20,3,,,No strong corroborating security indicators detected.
+metro-symbolicate,0.81.0-alpha.2,0.81.0,0,ok,0,LOW,none,,,,0.0,0,0,,2,1,,,No strong corroborating security indicators detected.
+microevent.ts,0.2.0,0.2.1,0,ok,0,LOW,none,,,,0.0,0,0,,7,2,,,No strong corroborating security indicators detected.
+minimist-options,4.0.2,4.1.0,0,ok,0,LOW,none,,,,0.0,0,0,,97,4,,,No strong corroborating security indicators detected.
+msgpack-lite,0.1.20,0.1.26,0,ok,9.25,LOW,network,new_network,new_network=9.25,lib/flex-buffer.js,8.75,5,8,network,1805,45,new_network @ lib/flex-buffer.js:50 (5.00) | new_network @ lib/flex-buffer.js:97 (1.25) | new_network @ lib/flex-buffer.js:159 (1.25) | new_network @ lib/flex-buffer.js:166 (1.25) | new_network @ dist/msgpack.min.js:1 (0.50),,No strong corroborating security indicators detected.
+msgpackr,1.11.1,1.11.2,0,ok,3.0,LOW,execution,new_dynamic_function,new_dynamic_function=3.00,dist/index.min.js,3.0,1,2,execution,14,14,new_dynamic_function @ dist/index.min.js:1 (3.00),,No strong corroborating security indicators detected.
+multer,1.4.4-lts.1,1.4.5-lts.1,0,ok,0,LOW,none,,,,0.0,0,0,,1,1,,,No strong corroborating security indicators detected.
+node-cache,5.1.1,5.1.2,0,ok,0,LOW,none,,,,0.0,0,0,,37,6,,,No strong corroborating security indicators detected.
+node-libs-browser,2.2.0,2.2.1,0,ok,0,LOW,none,,,,0.0,0,0,,10,3,,,No strong corroborating security indicators detected.
+nodemon,3.1.6,3.1.7,0,ok,0,LOW,none,,,,0.0,0,0,,2,2,,,No strong corroborating security indicators detected.
+oauth,0.9.15,0.10.0,0,ok,0,LOW,none,,,,0.0,0,0,,30,4,,,No strong corroborating security indicators detected.
+omggif,1.0.9,1.0.10,0,ok,0,LOW,none,,,,0.0,0,0,,2,1,,,No strong corroborating security indicators detected.
+ps-tree,1.1.1,1.2.0,0,ok,0,LOW,none,,,,0.0,0,0,,18,3,,,No strong corroborating security indicators detected.
+react-shallow-renderer,16.14.1,16.15.0,0,ok,0,LOW,none,,,,0.0,0,0,,130,4,,,No strong corroborating security indicators detected.
+stream-transform,3.3.2,3.3.3,0,ok,0,LOW,none,,,,0.0,0,0,,630,12,,,No strong corroborating security indicators detected.
+strict-uri-encode,1.1.0,2.0.0,0,ok,0,LOW,none,,,,0.0,0,0,,10,4,,,No strong corroborating security indicators detected.
+vue-template-compiler,2.7.16-beta.2,2.7.16,0,ok,0,LOW,none,,,,0.0,0,0,,1,1,,,No strong corroborating security indicators detected.

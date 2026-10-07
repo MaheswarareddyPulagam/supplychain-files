@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: supplyguard-github-webhook
+server:
+  port: 8080
+  error:
+    include-message: never
+
+supplyguard:
+  github:
+    api-base-url: https://api.github.com
+    api-version: 2026-03-10
+    token: ${GITHUB_TOKEN:}
+    webhook-secret: ${GITHUB_WEBHOOK_SECRET:}
+  analysis:
+    queue-file: data/github_dependency_update_queue.jsonl

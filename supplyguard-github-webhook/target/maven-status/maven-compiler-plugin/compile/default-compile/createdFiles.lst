@@ -1,0 +1,11 @@
+com\supplyguard\github\security\WebhookSignatureVerifier.class
+com\supplyguard\github\service\DeliveryTracker.class
+com\supplyguard\github\service\DependencyChangeDetector.class
+com\supplyguard\github\service\GitHubWebhookService.class
+com\supplyguard\github\config\AsyncConfig.class
+com\supplyguard\github\model\DependencyUpdate.class
+com\supplyguard\github\model\WebhookResponse.class
+com\supplyguard\github\service\GitHubApiClient.class
+com\supplyguard\github\SupplyGuardGitHubWebhookApplication.class
+com\supplyguard\github\controller\GitHubWebhookController.class
+com\supplyguard\github\service\AnalysisQueueService.class
